@@ -1,4 +1,13 @@
   <!-- ========== section start ========== -->
+  <style>
+    /* Contoh selector, sesuaikan dengan HTML Anda */
+    .tables-wrapper {
+      background: url('path/to/your/image.png') no-repeat center center fixed;
+      background-size: cover;
+      padding: 20px;
+      /* Sesuaikan padding sesuai kebutuhan */
+    }
+  </style>
   <section class="section">
     <div class="container-fluid">
       <!-- ========== title-wrapper start ========== -->
@@ -109,6 +118,9 @@
           </div>
         <?php } ?>
         <!-- End Col -->
+        <center>
+          <img src="assets/images/logo/index.png" alt="logo" style="width: 40%;" />
+        </center>
         </div>
         <!-- End Row -->
     </div>
